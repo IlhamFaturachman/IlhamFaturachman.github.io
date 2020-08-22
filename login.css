@@ -1,37 +1,23 @@
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
+html{
+	scroll-behavior: smooth;
 }
-button {
-    background-color: #000000;
-    color: white;
-    padding: 14px 20px;
-    margin: 8px 0;
-    border: none;
-    cursor: pointer;
-  }
-  .login
-  {
-      width: 100%;
-  }
-  .container {
-    padding: 16px;
-    padding-top: 120px;
-  }
-  .signup {
-    width: 20%;
-    padding: 10px 18px;
-    background-color: #000000;
-  }
-  
-  span.pswrd {
-    float: right;
-    padding-top: 16px;
-  }
-  
-  
-    
+
+.bg-blue-gradient {
+	/*background-color: #6a49c6;*/
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(106,73,198,1) 0%, rgb(255, 0, 0) 100%); 
+}
+
+body{
+	height: 100vh;
+	padding: 20px;
+}
+
+.btn-custom{
+	background: rgb(2,0,36);
+	background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(255,85,0,1) 0%, rgba(234,199,71,1) 100%); 
+}
+
+.signin-div{
+	padding: 5px;
+}
